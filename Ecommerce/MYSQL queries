@@ -1,0 +1,18 @@
+CREATE TABLE products (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(150) NOT NULL,
+  PRIMARY KEY (`id`),
+  description VARCHAR(150),
+  price DOUBLE PRECISION(15,2),
+  quantity INT(10) 
+  );
+ 
+ 
+INSERT INTO Products values(1,'Ice cream','Vanilla Flavour',90,5);
+INSERT INTO Products values(2,'Umbrella','Portable type',190,15);
+INSERT INTO Products values(3,'Bat','SS Company',1900,5);
+INSERT INTO Products values(4,'Cricket Ball','Made with leather',90,25);
+INSERT INTO Products values(5,'Laptop','8GB RAM,512GB ROM, FHD IPS PANEL',50000,5);
+INSERT INTO Products values(6,'Earphones','Noise Cancellation,10 hours playback',999,9);
+
+
